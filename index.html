@@ -1,31 +1,46 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Image Page</title>
+    <title>蒂绣纸巾 DIXIU Tissue - 海邻国际 Hilink Global</title>
     <style>
         body {
-            /* 设置背景色，这里以浅灰色为例，你可按需修改 */
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: Arial, sans-serif;
             margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
-        img {
+        .image-container {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .image-container img {
             max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
+        }
+
+        .contact-info {
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
         }
     </style>
 </head>
 
 <body>
-    <img src="dixiutissue.jpg" alt="Full Screen Image">
+    <div class="image-container">
+        <img src="dixiutissue.jpg" alt="蒂绣纸巾">
+    </div>
+    <div class="contact-info">
+        <h3>联系方式</h3>
+        <p>邮箱: <a href="mailto:postmaster@dixiutissue.com">postmaster@dixiutissue.com</a></p>
+    </div>
 </body>
 
 </html>    
